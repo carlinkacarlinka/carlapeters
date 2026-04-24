@@ -161,6 +161,53 @@ h1, h2, .project-description p {
   color: #333;
 }
 
+
+
+/* ---------------- PROJECT LAYOUT ---------------- */
+.project-layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
+  padding: 10px 20px 40px 20px;
+}
+
+/* ---------------- LINKER TEXT ---------------- */
+.project-info {
+  position: sticky;
+  height: fit-content;
+}
+
+.project-info h1 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.project-info p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+/* ---------------- RECHTE BILDER ---------------- */
+.project-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width: 800px) {
+  .project-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .project-info {
+    position: relative;
+    top: auto;
+  }
+}
+
 /* ---------------- RESPONSIVE ---------------- */
 @media (min-width: 600px) {
   .gallery {
