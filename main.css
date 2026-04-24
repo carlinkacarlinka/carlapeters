@@ -1,7 +1,14 @@
-/* ---------------- RESET / BASIS ---------------- */
+
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'amiamie', serif;
+}
+
+@font-face {
+  font-family: 'Garabosse';
+  src: url('fonts/Amiamie-Regular.woff') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* ---------------- NAVIGATION TOP ---------------- */
