@@ -108,7 +108,21 @@ h1, h2, .project-description p {
   border-radius: 4px;
 }
 
+/* ---------------- Insta Ansicht ---------------- */
 
+
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.insta-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 5; /* 👈 wichtig statt 1/1 */
+  object-fit: cover;
+  display: block;
+}
 
 /* ---------------- PROJECT / INFO SEITE ---------------- */
 .project-header, .info-header {
